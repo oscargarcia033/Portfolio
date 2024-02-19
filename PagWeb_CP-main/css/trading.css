@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.cont-p{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div-1{
+    height: 200px;
+    width: 600px ;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.div-2{
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(137, 137, 137);
+}
+h1{
+margin: 20px;
+}
