@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1c1c1c ;
+    background-color: #1c1c1c;
 }
 
 p {
@@ -121,7 +121,7 @@ img {
     height: 500px;
     width: 700px;
     margin: 50px;
-    margin-top: 50px ;
+    margin-top: 50px;
     padding-top: 0;
 }
 
@@ -193,36 +193,45 @@ header {
 
 /* CELULAR */
 @media screen and (max-width: 550px) {
-    
+
+    body{
+        width: 500px ;
+       height: 0 ; 
+    }
+
     .abrir-menu,
     .cerrar-menu {
         display: block;
     }
 
-    
+
     .nav {
         opacity: 0;
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        align-items: center; 
-        gap: 2rem;
+        align-items: center;
+        gap: 1rem;
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         background-color: #1d1d1d;
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.95);
     }
 
-    
+    header{
+        width:400px;
+        height: 60px;
+    }
+
+
     .nav.visible {
         opacity: 1;
         visibility: visible;
     }
 
-   
+
     .nav-list {
         flex-direction: column;
         align-items: center;
@@ -240,26 +249,90 @@ header {
 
     p {
         font-size: 14px;
+        display: block;
     }
 
 
     .button {
+        display: flex;
         width: 120px;
         font-size: 12px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    a{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+       margin: 15px;
+    }
+
+
+    .osc{
+        width: 100vmax;
     }
 
 
     .video-loop {
+        display: block;
         height: 300px;
-        width: 90%;
-        margin: 20px;
+        width: 500px;
+        margin: 0;
     }
-    
-    .hea{
+
+    .hea {
+        width: 600px;
+    }
+
+    .informacion{
+        display: inline;
+        margin-top: 0;
+    }
+
+
+    .venta4 {
+        height: 500px;
         width: 500px;
     }
 
+    .infinity {
+        height: 200px;
+        width: 300px;
+    }
 
+    .tit-token {
+        display: none;
+
+    }
+
+    .cont-vid{
+        display: block;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .dash {
+        height: 200px;
+        width: 300px;
+    }
+
+
+    section{
+        width: 500px;
+        height: 500px;
+    }
+
+    .venta1{
+        height: 700px;
+    }
 
 
 }
